@@ -11,7 +11,7 @@ class Student
   end
 
   def self.create_from_collection(students_array)
-    Scraper.creat
+    Scraper.create_out_of_array(array)
     binding.pry
   end
 
