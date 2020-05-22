@@ -45,7 +45,7 @@ class Scraper
   end
   
   def self.create_out_of_array(array)
-    array.each{|student| Student.
+    array.each{|student| Student.new(student)}
   end 
 
 end
