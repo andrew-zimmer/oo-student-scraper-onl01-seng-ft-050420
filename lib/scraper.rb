@@ -43,6 +43,10 @@ class Scraper
    
     hash
   end
+  
+  def self.create_out_of_array(array)
+    array.each{|student| Student.
+  end 
 
 end
 
